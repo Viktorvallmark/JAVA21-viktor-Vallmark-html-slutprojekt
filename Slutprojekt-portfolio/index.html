@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor's portfolio page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="javascript" href="javascript/javascript.js">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Viktor's portfolio page</h1>
+        <p class="nametrade">
+            Viktor Vallmark(TM)
+        </p>
+        <a href="contact.html">Contact</a>
+        <nav class="dropdown">
+            <button class="dropbtn">My projects</button>
+
+            <nav class="dropdown-content">
+                <a href="hundsemester.html">Hundsemester</a>
+                <a href="canidrive.html">Can I drive?</a>
+                <a href="findroomies.html">Find roommates</a>
+                <a href="fourth.html">Fourth page</a>
+                <a href="fifth.html">Fifth page</a>
+            </nav>
+        </nav>
+    </nav>
+
+    <article>
+
+        <header class="aboutme">
+
+            
+
+            <img class="profilepic" src="img/Profilbild.jpg" alt="Profile picture of Viktor Vallmark">
+            <h4>About me</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sit!
+            </p>
+        </header>
+
+
+        <h2>Click on one of the pictures to go to an information page about the corresponding project</h2>
+
+
+        <figure>
+
+            <a href="hundsemester.html">
+                <img onmouseover="largerImage(this)" onmouseleave="normalImage(this)" src="img/dog150x150.jpg"
+                    alt="Picture from place-puppy">
+                <figcaption>Hundsemester</figcaption>
+            </a>
+
+            <a href="canidrive.html">
+                <img onmouseover="largerImage(this)" onmouseleave="normalImage(this)" src="img/car150x150.jpg"
+                    alt="Picture of a sports car">
+                <figcaption>Can I drive?</figcaption>
+            </a>
+
+            <a href="findroomies.html">
+                <img onmouseover="largerImage(this)" onmouseleave="normalImage(this)" src="img/findroomies.jpg"
+                    alt="Picture of a group of people laughting">
+                <figcaption>Find room mates</figcaption>
+            </a>
+
+            <a href="fourth.html">
+                <img onmouseover="largerImage(this)" onmouseleave="normalImage(this)" src="img/painchamp.jpg"
+                    alt="A guy in emotional pain">
+                <figcaption>Fourth page</figcaption>
+
+            </a>
+
+            <a href="fifth.html">
+                <img onmouseover="largerImage(this)" onmouseleave="normalImage(this)" src="img/painchamp.jpg"
+                    alt="A guy in emotional pain">
+                <figcaption>Fifth page</figcaption>
+            </a>
+            <script>
+                function largerImage(x) {
+                    x.style.height = "180px";
+                    x.style.width = "180px";
+                }
+                function normalImage(x) {
+                    x.style.height = "150px";
+                    x.style.width = "150px";
+
+                }
+            </script>
+
+        </figure>
+        <footer>
+            <h3>How to contact me</h3>
+
+            <p>
+             Send an email to vallmark.viktor@gmail.com or press the contact button in the upper right corner of the page.
+            </p>
+
+        </footer>
+    </article>
+
+
+
+</body>
+
+</html>
