@@ -77,7 +77,6 @@ body {
     grid-template-rows: 1fr 0.25fr 0.5fr 0.5fr;
     grid-template-columns: 1fr 1fr 1fr;    
     gap: 5rem;
-    border: #b10e0e solid 3px;
     }
 
     .aboutme{
@@ -91,7 +90,6 @@ body {
         grid-row: 2/3 ;
         grid-column: 2/3 ;
         align-self: end;
-        border: blueviolet solid 3px;
     }
 
     article figure {
@@ -100,14 +98,12 @@ body {
     justify-content:space-around;
     grid-column: 1/4;
     grid-row: 3/4;
-    border: #35aa1d solid 3px;
     }
 
     footer {
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: rgba(211, 209, 209, 0.774);
-    border: hotpink solid 5px;
     align-items: center;
     }
     
